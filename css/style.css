@@ -1,0 +1,95 @@
+.tabIcon {
+    width: 60px;
+    height: 60px;
+    background-repeat: no-repeat;
+}
+
+li #tshirt-tab .tabIcon{
+    background: url("../images/tshirt-icon.png");
+}
+
+li.active #tshirt-tab .tabIcon{
+    background: url("../images/tshirt-active-icon.png");
+}
+
+li #picture-tab .tabIcon{
+    background: url("../images/picture-icon.png");
+}
+
+li.active #picture-tab .tabIcon{
+    background: url("../images/picture-active-icon.png");
+}
+
+li #text-tab .tabIcon{
+    background: url("../images/text-icon.png");
+}
+
+li.active #text-tab .tabIcon{
+    background: url("../images/text-active-icon.png");
+}
+
+li #preview-tab .tabIcon{
+    background: url("../images/preview-icon.png");
+}
+
+li.active #preview-tab .tabIcon{
+    background: url("../images/preview-active-icon.png");
+}
+
+li #buy-tab .tabIcon{
+    background: url("../images/buy-icon.png");
+}
+
+li.active #buy-tab .tabIcon{
+    background: url("../images/buy-active-icon.png");
+}
+
+
+
+#menuContainer .swatchHolder{
+  position:absolute;
+  margin:auto;
+  left:0px;
+  top: 10px;
+  list-style-type:none;
+  text-align:center;
+  display:inline-block;
+  padding: 10px;
+  margin: 5px;
+  width:120px;
+  height: 600px;
+  border-radius: 20px 20px 0px 0px;
+  color: black;
+  line-height: 100%;
+  padding: 0px;
+  margin: 0px 5px 5px 5px;
+  background-color: rgba(255,255,255,0.75);
+  cursor:pointer;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.5);
+     -moz-box-shadow: 0 1px 5px rgba(0,0,0,0.5);
+          box-shadow: 0 1px 5px rgba(0,0,0,0.5);
+}
+
+
+
+#menuContainer .swatchHolder li.swatch{
+  height:40px;
+  width:40px;
+  margin:7px;
+  display:inline-block;
+  cursor:pointer;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0 1px 5px rgba(0,0,0,0.5);
+  box-shadow: 0 1px 5px rgba(0,0,0,0.5);
+}
+
+#svgContaine svg{
+  width:100%;
+  display:inline-block;
+}
+
+#svgContaine svg path{
+  cursor:pointer;
+}
